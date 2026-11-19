@@ -1,0 +1,18 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>P2P Lend</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%236A4BA8'/%3E%3Cpath d='M7 23h4v-6H7zm7 0h4V13h-4zm7 0h4V9h-4z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{% static 'web/css/app.css' %}">
+  <script type="module" src="{% static 'web/js/app.js' %}"></script>
+</head>
+<body data-api-base="/api/v1/">
+  <a class="skip-link" href="#view">Skip to content</a>
+  <div id="app" aria-live="polite"></div>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">P2P Lend needs JavaScript. Turn it on in your browser settings and reload the page.</p></noscript>
+</body>
+</html>
