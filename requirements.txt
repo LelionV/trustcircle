@@ -11,7 +11,7 @@ django-cors-headers>=4.7,<5
 django-environ>=0.12,<0.15
 
 # Database: MySQL 8.0.11+ (or MariaDB 10.5+). Prebuilt wheels exist for Windows on Python 3.12/3.13.
-mysqlclient>=2.2,<3
+mysqlclient>=2.2.0
 
 # Cache, queues, real-time
 redis>=5.2
